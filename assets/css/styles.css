@@ -1,0 +1,69 @@
+.pe_error {
+	background-color: #f1adad;
+	border-style: solid;
+	border-color: #e35b5b;
+	text-align: center;
+	padding: 5px;
+	display: inline-block;
+}
+
+.pe_success {
+	background-color: #adf1ad;
+	border-style: solid;
+	border-color: #5be35b;
+	text-align: center;
+	padding: 5px;
+	display: inline-block;
+}
+
+#pe_try_to_parse, #pe_try_to_send, .pe_settings .spinner {
+	float: left;
+}
+
+.pe_add_selector:before,
+.pe_edit_selector:before,
+.pe_remove_selector:before,
+.dashicons-arrow-right-alt:before {
+	font: normal 20px/1 dashicons;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.pe_goto_url {
+	text-decoration: none;
+}
+
+#pe_result {
+	overflow: auto;
+}
+
+.pe_edit_selector {
+	color: #0073ac;
+}
+
+.pe_remove_selector {
+	color: red;
+}
+
+.pe_selector {
+	width: calc(100% - 72px);
+}
+
+table.pe_settings {
+	width: 100%;
+}
+
+#pe_url {
+	width: calc(100% - 25px);
+}
+
+#pe-templates-meta textarea {
+	width: 100%;
+}
+
+#pe_request_headers input[type=text] {
+	width: 100%;
+}
+#pe_request_headers input[type=number] {
+	width: 70px;
+}
